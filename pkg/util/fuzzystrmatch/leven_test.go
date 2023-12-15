@@ -292,7 +292,7 @@ func TestLevenshteinLessEqualDistanceDistance(t *testing.T) {
 	}
 }
 
-func TestLLevenshteinLessEqualDistanceWithCost(t *testing.T) {
+func TestLevenshteinLessEqualDistanceWithCost(t *testing.T) {
 	tt := []struct {
 		Source      string
 		Target      string
